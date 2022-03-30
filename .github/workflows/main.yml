@@ -6,10 +6,10 @@ on:
   workflow_dispatch:
 
 env:
-  WEBAPP: your-webapp-name
-  GROUP: your-resource-group-name
-  ACCOUNT: name-for-storage-acct  # Does not have to exist, this will be created for you
-  CONTAINER: name-for-storage-container
+  WEBAPP: jogutie-java
+  GROUP: Java-DevOpsJogutie
+  ACCOUNT: storage-acct-jogutie  # Does not have to exist, this will be created for you
+  CONTAINER: jogutie-app-content
   EXPIRY_TIME: 10 minutes
 
 jobs:
